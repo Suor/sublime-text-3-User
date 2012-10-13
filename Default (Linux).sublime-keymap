@@ -1,0 +1,23 @@
+[
+    { "keys": ["ctrl+]"], "command": "next_view" },
+    { "keys": ["ctrl+["], "command": "prev_view" },
+    { "keys": ["ctrl+alt+a"], "command": "alignment" },
+    { "keys": ["ctrl+,"], "command": "expand_selection_to_paragraph"},
+
+    { "keys": ["up"], "command": "repl_view_previous",
+    "context":
+        [
+            { "key": "setting.repl", "operator": "equal", "operand": true }
+        ]
+    },
+    { "keys": ["down"], "command": "repl_view_next",
+    "context":
+        [
+            { "key": "setting.repl", "operator": "equal", "operand": true }
+        ]
+    },
+
+    { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
+    { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}}
+
+]
