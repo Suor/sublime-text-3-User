@@ -1,9 +1,23 @@
 [
     { "keys": ["ctrl+]"], "command": "next_view" },
     { "keys": ["ctrl+["], "command": "prev_view" },
+    { "keys": ["shift+alt+l"], "command": "toggle_layout" },
     { "keys": ["ctrl+alt+a"], "command": "alignment" },
-    { "keys": ["ctrl+,"], "command": "expand_selection_to_paragraph"},
+    // { "keys": ["ctrl+,"], "command": "expand_selection_to_paragraph"},
 
+    // Russian equivalents
+    { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
+    { "keys": ["ctrl+shift+."], "command": "toggle_comment", "args": { "block": true } },
+
+    { "keys": ["ctrl+я"], "command": "undo" },
+    { "keys": ["ctrl+shift+я"], "command": "redo" },
+    { "keys": ["ctrl+у"], "command": "redo_or_repeat" },
+
+    { "keys": ["ctrl+ч"], "command": "cut" },
+    { "keys": ["ctrl+с"], "command": "copy" },
+    { "keys": ["ctrl+м"], "command": "paste" },
+
+    // repl
     { "keys": ["up"], "command": "repl_view_previous",
     "context":
         [
