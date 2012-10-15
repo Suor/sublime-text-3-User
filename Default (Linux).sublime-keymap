@@ -1,9 +1,18 @@
 [
+    // debug binding
+    { "keys": ["alt+."], "command": "comments_aware_enter" },
+
     { "keys": ["ctrl+]"], "command": "next_view" },
     { "keys": ["ctrl+["], "command": "prev_view" },
     { "keys": ["shift+alt+l"], "command": "toggle_layout" },
     { "keys": ["ctrl+alt+a"], "command": "alignment" },
     // { "keys": ["ctrl+,"], "command": "expand_selection_to_paragraph"},
+
+    // CTags
+    { "keys": ["ctrl+alt+]"], "command": "navigate_to_definition" },
+    { "keys": ["ctrl+alt+["], "command": "jump_back" },
+    { "keys": ["ctrl+alt+m"], "command": "jump_back", "args": {"to": "last_modification"} },
+
 
     // Russian equivalents
     { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
@@ -33,5 +42,4 @@
 
     { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
     { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}}
-
 ]
