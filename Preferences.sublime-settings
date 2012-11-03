@@ -4,6 +4,29 @@
 	"draw_white_space": "none",
 	"ensure_newline_at_eof_on_save": true,
 	"fallback_encoding": "Cyrillic (Windows 1251)",
+	"file_exclude_patterns":
+	[
+		".tags*",
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
 	"folder_exclude_patterns":
 	[
 		".svn",
@@ -16,9 +39,9 @@
 		".mc",
 		"logs",
 		"_copy",
-		"UFo-cache"
+		"UFo-cache",
+		"__pycache__"
 	],
-    "file_exclude_patterns": [".tags*", "*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"],
 	"font_size": 14,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
