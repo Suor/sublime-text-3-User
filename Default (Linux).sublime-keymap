@@ -13,6 +13,9 @@
     { "keys": ["ctrl+alt+["], "command": "jump_back" },
     { "keys": ["ctrl+alt+m"], "command": "jump_back", "args": {"to": "last_modification"} },
 
+    // Advanced New File
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
+    { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file", "args": {"is_python": true}},
 
     // Russian equivalents
     { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
