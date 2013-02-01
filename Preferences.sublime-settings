@@ -40,7 +40,9 @@
 		"logs",
 		"_copy",
 		"UFo-cache",
-		"__pycache__"
+		"__pycache__",
+		"_build",
+		"*.egg-info"
 	],
 	"font_size": 14,
 	"highlight_modified_tabs": true,
