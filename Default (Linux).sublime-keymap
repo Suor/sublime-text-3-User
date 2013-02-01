@@ -17,6 +17,9 @@
     { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
     { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file", "args": {"is_python": true}},
 
+    // Change Quotes
+    { "keys": ["alt+'"], "command": "change_quotes"},
+
     // Russian equivalents
     { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["ctrl+shift+."], "command": "toggle_comment", "args": { "block": true } },
