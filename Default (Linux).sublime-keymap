@@ -44,8 +44,8 @@
         [
             { "key": "setting.repl", "operator": "equal", "operand": true }
         ]
-    },
+    }
 
-    { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
-    { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}}
+    // { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
+    // { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}}
 ]
