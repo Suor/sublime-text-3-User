@@ -1,5 +1,6 @@
 {
 	"auto_indent": true,
+	"add_to_PATH": "/home/suor/.cabal/bin",
 	"added_words":
 	[
 		"callables",
