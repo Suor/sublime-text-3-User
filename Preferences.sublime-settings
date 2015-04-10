@@ -1,5 +1,13 @@
 {
 	"auto_indent": true,
+	"added_words":
+	[
+		"callables",
+		"unless",
+		"namespaces",
+		"absense"
+	],
+	"dictionary": "Packages/russian_english.dic",
 	"draw_indent_guides": false,
 	"draw_white_space": "none",
 	"ensure_newline_at_eof_on_save": true,
@@ -48,6 +56,7 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Markdown",
 		"Vintage"
 	],
 	"rulers":

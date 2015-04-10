@@ -1,0 +1,6 @@
+{
+    "dictionary": "Packages/russian_english.dic",
+    "spell_check": true,
+    "word_wrap": true,
+    "wrap_width": 100
+}
