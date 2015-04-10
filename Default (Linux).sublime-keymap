@@ -1,6 +1,10 @@
 [
     // debug binding
     { "keys": ["alt+."], "command": "test_command" },
+    { "keys": ["alt+c"], "command": "encall", "context": [
+        { "key": "setting.is_widget", "operator": "equal", "operand": false}
+    ]},
+    { "keys": ["ctrl+alt+a"], "command": "select_block" },
 
     { "keys": ["ctrl+]"], "command": "next_view" },
     { "keys": ["ctrl+["], "command": "prev_view" },
@@ -37,8 +41,17 @@
     { "keys": ["ctrl+с"], "command": "copy" },
     { "keys": ["ctrl+м"], "command": "paste" },
 
-    },
+    { "keys": ["ctrl+х"], "command": "prev_view" },
+    { "keys": ["ctrl+ъ"], "command": "next_view" },
 
-    // { "keys": ["ctrl+enter"], "command": "repl_transfer_current", "args": {"scope": "selection"}},
-    // { "keys": ["ctrl+shift+enter"], "command": "repl_transfer_current", "args": {"scope": "selection", "action":"view_write"}}
+    { "keys": ["ctrl+л", "ctrl+л"], "command": "run_macro_file",
+        "args": {"file": "res://Packages/Default/Delete to Hard EOL.sublime-macro"}
+    },
+    { "keys": ["ctrl+о"], "command": "comments_aware_join_lines", "context": [
+        { "key": "selector", "operator": "equal", "operand": "comment.line" }
+    ] },
+
+    // Rebind
+    { "keys": ["ctrl+shift+l"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
 ]
