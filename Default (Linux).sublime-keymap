@@ -7,6 +7,7 @@
     { "keys": ["shift+alt+l"], "command": "toggle_layout" },
     { "keys": ["ctrl+alt+a"], "command": "alignment" },
     // { "keys": ["ctrl+,"], "command": "expand_selection_to_paragraph"},
+    { "keys": ["f8"], "command": "toggle_white_space" },
 
     // CTags
     { "keys": ["ctrl+alt+]"], "command": "navigate_to_definition" },
