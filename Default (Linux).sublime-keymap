@@ -7,10 +7,11 @@
     { "keys": ["shift+alt+l"], "command": "toggle_layout" },
     { "keys": ["f8"], "command": "toggle_white_space" },
 
-    // CTags
-    { "keys": ["ctrl+alt+]"], "command": "navigate_to_definition" },
+    // Code browsing
+    { "keys": ["ctrl+alt+]"], "command": "goto_definition" },
     { "keys": ["ctrl+alt+["], "command": "jump_back" },
-    { "keys": ["ctrl+alt+m"], "command": "jump_back", "args": {"to": "last_modification"} },
+    { "keys": ["ctrl+alt+shift+]"], "command": "jump_forward" },
+    { "keys": ["ctrl+shift+alt+l"], "command": "git_gutter_next_change" },
 
     // Advanced New File
     { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
