@@ -13,9 +13,14 @@
     { "keys": ["ctrl+alt+shift+]"], "command": "jump_forward" },
     { "keys": ["ctrl+shift+alt+l"], "command": "git_gutter_next_change" },
 
+    // File things
+    { "keys": ["alt+r"], "command": "reveal_in_side_bar" },
+    { "keys": ["alt+q"], "command": "focus_side_bar" },
+    { "keys": ["f2"], "command": "file_rename"},
+
     // Advanced New File
-    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file"},
-    { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file", "args": {"is_python": true}},
+    { "keys": ["ctrl+alt+n"], "command": "advanced_new_file_new"},
+    { "keys": ["shift+ctrl+alt+n"], "command": "advanced_new_file_new", "args": {"is_python": true}},
 
     // Change Quotes
     { "keys": ["alt+'"], "command": "change_quotes"},
