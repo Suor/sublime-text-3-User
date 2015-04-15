@@ -64,6 +64,7 @@
 		"Vintage",
 		"PlainTasks"
 	],
+	"mde.keep_centered": false,
 	"rulers":
 	[
 		100
