@@ -1,0 +1,39 @@
+{
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"Alignment",
+		"Babel",
+		"Better JavaScript",
+		"ChangeQuotes",
+		"ColorPicker",
+		"Cython",
+		"EvalPrinter",
+		"File Rename",
+		"Floobits",
+		"Gist",
+		"Git Commit Message Syntax",
+		"Git Config",
+		"GitCommitMsg",
+		"GitGutter",
+		"HTML Mustache",
+		"INI",
+		"Jade",
+		"Jinja2",
+		"LESS",
+		"Markdown Extended",
+		"MarkdownEditing",
+		"MinimalFortran",
+		"Monokai Extended",
+		"OmniMarkupPreviewer",
+		"Package Control",
+		"Postgres PL pgSQL",
+		"ScopeAlways",
+		"SCSS",
+		"sublime-github",
+		"Theme - Soda"
+	]
+}
