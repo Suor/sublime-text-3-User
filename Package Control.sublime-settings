@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -6,14 +7,15 @@
 	[
 		"AdvancedNewFile",
 		"Alignment",
+		"Anaconda",
 		"Babel",
 		"Better JavaScript",
 		"ChangeQuotes",
 		"ColorPicker",
 		"Cython",
+		"Dockerfile Syntax Highlighting",
 		"EvalPrinter",
 		"File Rename",
-		"Floobits",
 		"Gist",
 		"Git Commit Message Syntax",
 		"Git Config",
@@ -22,6 +24,7 @@
 		"HTML Mustache",
 		"INI",
 		"Jade",
+		"JavaScriptNext - ES6 Syntax",
 		"Jinja2",
 		"LESS",
 		"Markdown Extended",
@@ -34,6 +37,8 @@
 		"ScopeAlways",
 		"SCSS",
 		"sublime-github",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"Theme - Soda"
 	]
 }
