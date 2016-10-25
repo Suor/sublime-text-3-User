@@ -5,10 +5,13 @@
 		"callables",
 		"unless",
 		"namespaces",
-		"absense"
+		"absense",
+		"accessor",
+		"postgres",
+		"async"
 	],
 	"atomic_save": true,
-	"color_scheme": "Packages/Monokai Extended/Monokai Extended.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
 	"dictionary": "Packages/russian_english.dic",
 	"draw_indent_guides": false,
 	"draw_white_space": "none",
@@ -47,6 +50,9 @@
 		".svn",
 		".subversion",
 		".mc",
+		".tox",
+		".cache",
+		"*.egg-info",
 		"logs",
 		"_copy",
 		"UFo-cache",
@@ -56,13 +62,13 @@
 		"node_modules",
 		".ipynb_checkpoints"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"JavaScript",
 		"Markdown",
-		"Vintage",
-		"PlainTasks"
+		"Vintage"
 	],
 	"mde.keep_centered": false,
 	"rulers":

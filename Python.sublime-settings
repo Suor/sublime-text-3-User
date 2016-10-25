@@ -2,6 +2,7 @@
 	"extensions":
 	[
 		"py",
-		"wsgi"
+		"wsgi",
+		"pyxbld"
 	]
 }
