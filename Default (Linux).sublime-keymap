@@ -27,7 +27,11 @@
     // {"command": "anaconda_doc", "keys": ["super+d"]},
 
     // File things
-    { "keys": ["alt+r"], "command": "reveal_in_side_bar" },
+    { "keys": ["alt+r"], "command": "reveal_in_side_bar", "context":
+        [
+            { "key": "setting.is_widget", "operator": "equal", "operand": false }
+        ]
+    },
     { "keys": ["alt+q"], "command": "focus_side_bar" },
     { "keys": ["f2"], "command": "file_rename"},
 
