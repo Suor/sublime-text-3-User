@@ -67,4 +67,7 @@
     // Rebind
     { "keys": ["ctrl+shift+l"], "command": "expand_selection", "args": {"to": "indentation"} },
     { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+
+    { "keys": ["alt+;"], "command": "toggle_bookmark" },
+    { "keys": ["alt+."], "command": "prev_bookmark" },
 ]
