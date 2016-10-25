@@ -13,9 +13,18 @@
 
     // Code browsing
     { "keys": ["ctrl+alt+]"], "command": "goto_definition" },
+    // {
+    //     "command": "anaconda_goto", "keys": ["ctrl+alt+]"], "context": [
+    //         {"key": "selector", "operator": "equal", "operand": "source.python"}
+    //     ]
+    // },
     { "keys": ["ctrl+alt+["], "command": "jump_back" },
     { "keys": ["ctrl+alt+shift+]"], "command": "jump_forward" },
     { "keys": ["ctrl+shift+alt+l"], "command": "git_gutter_next_change" },
+
+    { "keys": ["ctrl+alt+g"], "command": "anaconda_goto" },
+    {"command": "anaconda_find_usages", "keys": ["ctrl+alt+f"]},
+    // {"command": "anaconda_doc", "keys": ["super+d"]},
 
     // File things
     { "keys": ["alt+r"], "command": "reveal_in_side_bar" },

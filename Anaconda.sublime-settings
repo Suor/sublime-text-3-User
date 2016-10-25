@@ -1,0 +1,24 @@
+{
+    "enable_signatures_tooltip": false,
+    "enable_docstrings_tooltip": false,
+    "anaconda_linter_mark_style": "none",
+    "anaconda_linting": false,
+    "pep8_ignore":
+    [
+        "E302",
+        //
+        // "E501",
+        // "E402",
+        // "E266",
+        // "E731",
+        // "E251",
+        // "E225",
+        // "E221",
+        // "E265",
+        // "E128",
+        // "E127"
+    ],
+
+    // Maximum line length for pep8
+    "pep8_max_line_length": 100
+}
