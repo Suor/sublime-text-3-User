@@ -1,6 +1,6 @@
 [
     // debug binding
-    { "keys": ["alt+."], "command": "test_command" },
+    // { "keys": ["ctrl+alt+."], "command": "scopes_test" },
     { "keys": ["alt+c"], "command": "encall", "context": [
         { "key": "setting.is_widget", "operator": "equal", "operand": false}
     ]},
@@ -68,8 +68,8 @@
     { "keys": ["ctrl+л", "ctrl+д"], "command": "lower_case" },
 
     // Rebind
-    { "keys": ["ctrl+shift+l"], "command": "expand_selection", "args": {"to": "indentation"} },
-    { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/long-tag.sublime-snippet" } },
+    // { "keys": ["ctrl+shift+l"], "command": "expand_selection", "args": {"to": "indentation"} },
+    { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
 
     { "keys": ["alt+;"], "command": "toggle_bookmark" },
     { "keys": ["alt+."], "command": "prev_bookmark" },
