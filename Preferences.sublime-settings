@@ -66,8 +66,16 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Clojure",
+		"ColorPicker",
+		"Diff",
+		"EvalPrinter",
+		"GitCommitMsg",
 		"JavaScript",
 		"Markdown",
+		"ScopeAlways",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
 		"Vintage"
 	],
 	"mde.keep_centered": false,
