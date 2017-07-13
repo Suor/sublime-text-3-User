@@ -1,3 +1,5 @@
 {
-	"missing_module_reported": true
-}
+	"missing_module_reported": true,
+    "renderer_options-MarkdownRenderer": {
+        "extensions": ["tables", "fenced_code", "codehilite"]
+    }}
