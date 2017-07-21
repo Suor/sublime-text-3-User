@@ -47,7 +47,6 @@
 		".hg",
 		"CVS",
 		".ssh",
-		".svn",
 		".subversion",
 		".mc",
 		".tox",
