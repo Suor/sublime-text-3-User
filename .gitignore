@@ -4,4 +4,3 @@ Package Control.user-ca-bundle
 Package Control.cache
 *.pyc
 SublimeREPLHistory
-SublimeLinter*
