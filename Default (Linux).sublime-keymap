@@ -4,7 +4,7 @@
     { "keys": ["alt+c"], "command": "encall", "context": [
         { "key": "setting.is_widget", "operator": "equal", "operand": false}
     ]},
-    { "keys": ["ctrl+alt+a"], "command": "select_block" },
+    { "keys": ["ctrl+alt+d"], "command": "delete_block" },
 
     { "keys": ["ctrl+]"], "command": "next_view" },
     { "keys": ["ctrl+["], "command": "prev_view" },
