@@ -61,7 +61,7 @@
 		"node_modules",
 		".ipynb_checkpoints"
 	],
-	"font_size": 14,
+	"font_size": 13,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
