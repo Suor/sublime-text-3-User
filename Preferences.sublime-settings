@@ -65,7 +65,6 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Clojure",
 		"ColorPicker",
 		"Diff",
 		"EvalPrinter",
