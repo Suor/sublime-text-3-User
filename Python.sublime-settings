@@ -3,6 +3,7 @@
 	[
 		"py",
 		"wsgi",
-		"pyxbld"
+		"pyxbld",
+		"repr"
 	]
 }
