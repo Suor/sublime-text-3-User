@@ -1,4 +1,6 @@
 [
+    { "keys": ["shift+tab"], "command": "unindent"},
+
     // debug binding
     // { "keys": ["ctrl+alt+."], "command": "scopes_test" },
     { "keys": ["alt+c"], "command": "encall", "context": [
