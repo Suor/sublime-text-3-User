@@ -1,0 +1,5 @@
+// These settings override both User and Default settings for the Makefile syntax
+{
+        "draw_white_space": "all"
+
+}

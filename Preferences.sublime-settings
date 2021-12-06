@@ -11,7 +11,7 @@
 		"async"
 	],
 	"atomic_save": true,
-	"color_scheme": "Packages/User/SublimeLinter/Monokai Extended (SL).tmTheme",
+	"color_scheme": "Monokai.sublime-color-scheme",
 	"dictionary": "Packages/russian_english.dic",
 	"draw_indent_guides": false,
 	"draw_white_space": "none",
@@ -61,10 +61,12 @@
 		"node_modules",
 		".ipynb_checkpoints"
 	],
-	"font_size": 13,
+	"font_face": "Ubuntu Mono",
+	"font_size": 16,
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
+		"Babel",
 		"ColorPicker",
 		"Diff",
 		"EvalPrinter",
@@ -73,17 +75,38 @@
 		"Markdown",
 		"SublimeLinter",
 		"SublimeLinter-flake8",
-		"Vintage"
+		"SublimeREPL",
+		"Vintage",
 	],
 	"mde.keep_centered": false,
+	"renderer_options-MarkdownRenderer":
+	{
+		"extensions":
+		[
+			"markdown.extensions.tables",
+			"markdown.extensions.strikeout",
+			"markdown.extensions.fenced_code",
+			"markdown.extensions.codehilite"
+		],
+	},
 	"rulers":
 	[
 		100
 	],
 	"shift_tab_unindent": true,
 	"show_definitions": false,
+	// "show_rel_path": true,
 	"show_tab_close_buttons": false,
 	"theme": "Soda Dark 3.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_trailing_white_space_on_save": true
+	"trim_trailing_white_space_on_save": true,
+	"ignored_snippets": [],
+	// Autocomplete
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_use_history": true,
+	// Don't show autocomplete popup
+	"mini_auto_complete": false,
+	"auto_complete": false,
+	// "tab_completion": false,
+	"update_check": false,
 }

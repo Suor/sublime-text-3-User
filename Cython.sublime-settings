@@ -1,5 +1,7 @@
 {
 	"extensions":
 	[
+		"pyx",
+		"pxd"
 	]
 }

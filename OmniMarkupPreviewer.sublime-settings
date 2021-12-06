@@ -1,5 +1,11 @@
 {
 	"missing_module_reported": true,
     "renderer_options-MarkdownRenderer": {
-        "extensions": ["tables", "fenced_code", "codehilite"]
-    }}
+        "extensions": [
+            "markdown.extensions.tables",
+            // "markdown.extensions.strikeout",
+            "markdown.extensions.fenced_code",
+            "markdown.extensions.codehilite"
+        ]
+    },
+}

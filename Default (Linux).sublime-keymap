@@ -1,5 +1,8 @@
 [
+    { "keys": ["ctrl+alt+r"], "command": "unbound"},
     { "keys": ["shift+tab"], "command": "unindent"},
+    // ST3 style
+    { "keys": ["ctrl+j"], "command": "join_lines" },
 
     // debug binding
     // { "keys": ["ctrl+alt+."], "command": "scopes_test" },
@@ -15,16 +18,22 @@
 
     // Code browsing
     { "keys": ["ctrl+alt+]"], "command": "goto_definition" },
-    // {
-    //     "command": "anaconda_goto", "keys": ["ctrl+alt+]"], "context": [
-    //         {"key": "selector", "operator": "equal", "operand": "source.python"}
-    //     ]
-    // },
+    {
+        "keys": ["ctrl+alt+g"], "command": "anaconda_goto", "context": [
+            {"key": "selector", "operator": "equal", "operand": "source.python"}
+        ]
+    },
+    {
+        "keys": [ "ctrl+alt+g" ], "command": "typescript_go_to_definition",
+        "context": [
+            { "key": "selector", "operator": "equal", "operand": "source.ts, source.tsx, source.js, source.jsx" }
+        ]
+    },
     { "keys": ["ctrl+alt+["], "command": "jump_back" },
     { "keys": ["ctrl+alt+shift+]"], "command": "jump_forward" },
     { "keys": ["ctrl+shift+alt+l"], "command": "git_gutter_next_change" },
 
-    { "keys": ["ctrl+alt+g"], "command": "anaconda_goto" },
+    // { "keys": ["ctrl+alt+g"], "command": "anaconda_goto" },
     {"command": "anaconda_find_usages", "keys": ["ctrl+alt+f"]},
     // {"command": "anaconda_doc", "keys": ["super+d"]},
 
@@ -45,16 +54,23 @@
     { "keys": ["alt+'"], "command": "change_quotes"},
 
     // Russian equivalents
-    { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
+    // { "keys": ["ctrl+."], "command": "toggle_comment", "args": { "block": false } },
     { "keys": ["ctrl+shift+."], "command": "toggle_comment", "args": { "block": true } },
 
     { "keys": ["ctrl+я"], "command": "undo" },
     { "keys": ["ctrl+shift+я"], "command": "redo" },
     { "keys": ["ctrl+у"], "command": "redo_or_repeat" },
 
+    { "keys": ["ctrl+ผ"], "command": "undo" },
+    { "keys": ["ctrl+shift+ผ"], "command": "redo" },
+
     { "keys": ["ctrl+ч"], "command": "cut" },
     { "keys": ["ctrl+с"], "command": "copy" },
     { "keys": ["ctrl+м"], "command": "paste" },
+
+    { "keys": ["ctrl+ป"], "command": "cut" },
+    { "keys": ["ctrl+แ"], "command": "copy" },
+    { "keys": ["ctrl+อ"], "command": "paste" },
 
     { "keys": ["ctrl+х"], "command": "prev_view" },
     { "keys": ["ctrl+ъ"], "command": "next_view" },
@@ -74,5 +90,9 @@
     { "keys": ["alt+shift+w"], "command": "insert_snippet", "args": { "name": "Packages/XML/Snippets/long-tag.sublime-snippet" } },
 
     { "keys": ["alt+;"], "command": "toggle_bookmark" },
-    { "keys": ["alt+."], "command": "prev_bookmark" },
+    { "keys": ["alt+."], "command": "keylay_replay" },
+    // { "keys": ["alt+/"], "command": "keylay_replay" },
+    // { "keys": ["tab"], "command": "commit_completion",
+    //     // "context":        [{ "key": "auto_complete_visible" }]
+    // },
 ]
